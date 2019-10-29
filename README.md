@@ -7,13 +7,13 @@ Relies on https://www.github.com/DartmouthGrangerLab/MatlabCommon , which must a
 
 This is the minimal set of code needed to run. Lab members should look to our private repository "Jpeg" (IQA folder) for a more complete code base (e.g. Dartmouth computing cluster scripts).
 
-Elijah FW Bowen is responsible for any problems herein: <email>
+Elijah FW Bowen is responsible for any problems herein: elijah.floyd.william.bowen@dartmouth.edu
 
 **To generate the figures from the paper:**
 
-1) run <todo>
+1) <todo>
   
-2) run <todo>
+2) <todo>
   
 **To use the standalone IQA methods from the paper:**
 
