@@ -9,21 +9,21 @@ This is the minimal set of code needed to run. Lab members should look to our pr
 
 **Installation:**
 
-1) Choose a matlab working directory. In the code and this readme, all files and folders are *assumed* to be right within that directory (you will have a folder <chosen_working_directory>/IQA containing this code).
+1) Choose a matlab working directory. In the code and this readme, all files and folders are *assumed* to be right within that directory (you will have a folder <chosen_working_dir>/IQA containing this code).
 
 2) Download this repository. Add it and all sub-folders to your matlab path.
 
-3) Download the only code dependency, https://www.github.com/DartmouthGrangerLab/MatlabCommon . Add it and all sub-folders to your matlab path.
+3) Download the only code dependency, https://www.github.com/DartmouthGrangerLab/MatlabCommon . Add it and all sub-folders to your matlab path (doesn't matter where you put it).
 
-4) Download a dataset, and place that dataset in <chosen_working_directory>/Datasets/ImageDatasets/<datasetname> . For example, you might go to https://www.github.com/DartmouthGrangerLab/SceneIQ and place the contents of the /online folder in <chosen_working_directory>/Datasets/ImageDatasets/SceneIQOnline/ . If you wish to create a **new dataset**:
+4) Download a dataset, and place that dataset in <chosen_working_dir>/Datasets/ImageDatasets/<datasetname> . For example, you might go to https://www.github.com/DartmouthGrangerLab/SceneIQ and place the contents of the /online folder in <chosen_working_dir>/Datasets/ImageDatasets/SceneIQOnline/ . If you wish to create a **new dataset**:
   
-  a) Place your images in <chosen_working_directory>/Datasets/ImageDatasets/<newdatasetname>/formattedimgs/ following the file naming convention of https://www.github.com/DartmouthGrangerLab/SceneIQ .
+   a) Place your images in <chosen_working_dir>/Datasets/ImageDatasets/<newdatasetname>/formattedimgs/ following the file naming convention of https://www.github.com/DartmouthGrangerLab/SceneIQ .
   
-  b) Place your human ratings in <chosen_working_directory>/Datasets/ImageDatasets/<newdatasetname>/formattedimgs/<filename>.csv , following the file format of https://www.github.com/DartmouthGrangerLab/SceneIQ .
+   b) Place your human ratings in <chosen_working_dir>/Datasets/ImageDatasets/<newdatasetname>/<filename>.csv , following the file format of https://www.github.com/DartmouthGrangerLab/SceneIQ .
   
-  c) Add your dataset to the if statement in ```ConfigDatasetByName.m```
+   c) Add your dataset to the if statement in ```ConfigDatasetByName.m```
   
-  Pre-formatted copies of the JPEG components of other datasets are available upon request (CSIQ, Toyama, TID 2013).
+   Pre-formatted copies of the JPEG components of other datasets are available upon request (CSIQ, Toyama, TID 2013).
 
 **To generate the figures from the paper:**
 
