@@ -37,15 +37,15 @@ This code is entirely written in matlab (no addition compilers needed, e.g. mex)
 
 3) Difference the images using ```iqaResult = CalcImgDist(img1, img2, tensor)```
 
-Refer to Example_ImgDiff.m for a full implementation of this (conveniently using the image formatting code from the paper).
+Refer to ```Example_ImgDiff.m``` for a full implementation of this (conveniently using the image formatting code from the paper).
 
 **To generate the figures from the paper:**
   
-Refer to Example_RenderFigs.m for a full implementation of this.
+Refer to ```Example_RenderFigs.m``` for a full implementation of this.
 
 **To compile new tensors / IQA measures:**
 
-Refer to Example_CompileTensors.m for a full implementation of this.
+Refer to ```Example_CompileTensors.m``` for a full implementation of this.
 
 **If you use this code, please cite:**
 
