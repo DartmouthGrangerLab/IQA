@@ -47,8 +47,14 @@ Refer to ```Example_RenderFigs.m``` for a full implementation of this.
 
 Refer to ```Example_CompileTensors.m``` for a full implementation of this.
 
+# References
+
 **If you use this code, please cite:**
 
 ```E.F.W. Bowen, A. Rodriguez, D. Sowinski, R. Granger, "Visual stream connectivity predicts image quality assessments"```
 
-Elijah FW Bowen is responsible for any problems herein: elijah.floyd.william.bowen@dartmouth.edu
+Much appreciation to the metrix_mux folks.
+
+If you use SceneIQ, please see https://github.com/DartmouthGrangerLab/SceneIQ for citations.
+
+Elijah FW Bowen is responsible for any problems herein: **contact** elijah.floyd.william.bowen@dartmouth.edu
