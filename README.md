@@ -17,15 +17,15 @@ This code is entirely written in matlab (no addition compilers needed, e.g. mex)
 
 **Additional Installation to Generate Paper Figures:**
 
-4) Download a dataset, and place that dataset in <chosen_working_dir>/Datasets/ImageDatasets/<datasetname> . For example, you might go to https://www.github.com/DartmouthGrangerLab/SceneIQ and place the contents of the /online folder in <chosen_working_dir>/Datasets/ImageDatasets/SceneIQOnline/ . If you wish to create a **new dataset**:
+4) Download a dataset, and place that dataset in \<chosen_working_dir\>/Datasets/ImageDatasets/\<datasetname\> . For example, you might go to https://www.github.com/DartmouthGrangerLab/SceneIQ and place the contents of the /online folder in \<chosen_working_dir\>/Datasets/ImageDatasets/SceneIQOnline/ . If you wish to create a **new dataset**:
   
-   a) Place your images in <chosen_working_dir>/Datasets/ImageDatasets/<newdatasetname>/formattedimgs/ following the file naming convention of https://www.github.com/DartmouthGrangerLab/SceneIQ .
+   a) Place your images in \<chosen_working_dir\>/Datasets/ImageDatasets/\<newdatasetname\>/formattedimgs/ following the file naming convention of https://www.github.com/DartmouthGrangerLab/SceneIQ .
   
-   b) Place your human ratings in <chosen_working_dir>/Datasets/ImageDatasets/<newdatasetname>/<filename>.csv , following the file format of https://www.github.com/DartmouthGrangerLab/SceneIQ .
+   b) Place your human ratings in \<chosen_working_dir\>/Datasets/ImageDatasets/<newdatasetname>/\<filename\>.csv , following the file format of https://www.github.com/DartmouthGrangerLab/SceneIQ .
   
    c) Add your dataset to the if statement in ```ConfigDatasetByName.m```
   
-   Pre-formatted copies of the JPEG components of other datasets are available upon request (CSIQ, Toyama, TID 2013).
+   Pre-formatted copies of other datasets are available upon request (JPEG components of CSIQ, Toyama, TID 2013).
 
 5) To compare against SSIM or other popular IQA measures, download metrix_mux v1.1 ( http://ollie-imac.cs.northwestern.edu/~ollie/GMM/code/metrix_mux/ ) and add it to your matlab path.
 
