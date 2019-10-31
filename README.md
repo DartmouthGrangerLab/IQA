@@ -7,15 +7,15 @@ Clarification of this code is ongoing...
 
 **General Installation:**
 
-This code is entirely written in matlab (no addition compilers needed, e.g. mex). Tested on Matlab 2017a.
+This code is entirely written in matlab (no addition compilers needed, e.g. mex). It has no dependencies (except matlab) if you only wish to use the pre-compiled IQA measures. Tested on Matlab 2017a.
 
 1) Choose a matlab working directory. In the code and this readme, all files and folders are *assumed* to be right within that directory (you will have a folder <chosen_working_dir>/iqa containing this code).
 
 2) Download this repository. Add it and all sub-folders to your matlab path.
 
-3) Download the only code dependency, https://www.github.com/DartmouthGrangerLab/MatlabCommon . Add it and all sub-folders to your matlab path (doesn't matter where you put it).
-
 **Additional Installation to Generate Paper Figures:**
+
+3) Download the only code dependency, https://www.github.com/DartmouthGrangerLab/MatlabCommon . Add it and all sub-folders to your matlab path (doesn't matter where you put it).
 
 4) Download a dataset, and place that dataset in \<chosen_working_dir\>/Datasets/ImageDatasets/\<datasetname\> . For example, you might go to https://www.github.com/DartmouthGrangerLab/SceneIQ and place the contents of the /online folder in \<chosen_working_dir\>/Datasets/ImageDatasets/SceneIQOnline/ . If you wish to create a **new dataset**:
   
